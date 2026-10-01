@@ -17,7 +17,8 @@
   "readme": "README.md",
   "scripts": {
     "prepublishOnly": "tsc",
-    "postpublish": "rimraf dist"
+    "postpublish": "rimraf dist",
+    "testBuild": "tsc && rimraf dist" 
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

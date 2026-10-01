@@ -23,5 +23,7 @@ export const isString = (str: string) => ({
     const trimmed = str.trim();
     return trimmed.toLowerCase() === trimmed && trimmed.length > 0;
   },
-  matches: (regex: RegExp) => regex.test(str)
+  matches: (regex: RegExp) => regex.test(str),
+  aSubstringOf: (st: string) => str.includes(st),
+  sameAs: (st: string, ignoreWhitespaces: boolean) => ignoreWhitespaces ? st.trim()==str.trim() : st==str
 });
