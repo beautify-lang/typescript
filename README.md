@@ -172,6 +172,13 @@ Returns an object with array transformation methods:
 
 Returns the boolean negation of the input value.
 
+
+## TypeScript Extras
+This library gives you some more stuff - TypeScript specific stuff:
+
+### `Union<A, B>` Type
+Let's you say `Union<X, Y>` instead of `X | Y`, helps beginners understand what they're doing.
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
