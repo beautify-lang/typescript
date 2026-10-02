@@ -35,7 +35,7 @@ export class Condition<ExpectedOutputType> implements ConditionInterface<Expecte
     const out = this.statement();
     if (out !== this.eo) {
       this.log(
-        `[@beautify-lang/js${this.lT ? ` at ${new Date().toISOString().split(".")[0]!.replace("T", " ")}` : ""}]: Condition "${this.label}" failed. Given Callback returned ${JSON.stringify(out)}, expected output was ${JSON.stringify(this.eo)}`
+        `[@beautify-lang/ts${this.lT ? ` at ${new Date().toISOString().split(".")[0]!.replace("T", " ")}` : ""}]: Condition "${this.label}" failed. Given Callback returned ${JSON.stringify(out)}, expected output was ${JSON.stringify(this.eo)}`
       );
       return false;
     };
