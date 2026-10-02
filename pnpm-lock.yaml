@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@beautify-lang/js':
+        specifier: ^1.0.0
+        version: 1.0.0
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -20,6 +23,9 @@ importers:
         version: 6.1.3
 
 packages:
+
+  '@beautify-lang/js@1.0.0':
+    resolution: {integrity: sha512-bMUwHer0fd/7/Zj3oEpIMrMt20UEdiNMUev1/LJ6aG11URy7Q+ToizMqZ0RzkF4hIyDPlekf24gcbXAv97Idzw==}
 
   '@types/node@26.6.3':
     resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
@@ -189,6 +195,10 @@ packages:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
 snapshots:
+
+  '@beautify-lang/js@1.0.0':
+    dependencies:
+      typescript: 7.0.2
 
   '@types/node@26.6.3':
     dependencies:
