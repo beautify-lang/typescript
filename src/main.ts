@@ -1,2 +1,2 @@
 export * from "@beautify-lang/js";
-export type { Union } from "./stuff/Union.js";
+export * from "./stuff/index.js";
