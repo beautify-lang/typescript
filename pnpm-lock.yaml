@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@beautify-lang/js':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^2.0.0
+        version: 2.0.0
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -24,8 +24,8 @@ importers:
 
 packages:
 
-  '@beautify-lang/js@1.0.0':
-    resolution: {integrity: sha512-bMUwHer0fd/7/Zj3oEpIMrMt20UEdiNMUev1/LJ6aG11URy7Q+ToizMqZ0RzkF4hIyDPlekf24gcbXAv97Idzw==}
+  '@beautify-lang/js@2.0.0':
+    resolution: {integrity: sha512-yNfsptm0QchGUT2w1pBGOs/QRyhMAZ3p55U3/9p7ApqMZGwUfvksFCjKbxaQIaJwG9rcK7GEP7RmL/QVBz6lVQ==}
 
   '@types/node@26.6.4':
     resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
@@ -196,7 +196,7 @@ packages:
 
 snapshots:
 
-  '@beautify-lang/js@1.0.0':
+  '@beautify-lang/js@2.0.0':
     dependencies:
       typescript: 7.0.2
 
